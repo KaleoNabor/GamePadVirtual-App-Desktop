@@ -1,6 +1,7 @@
 # 🎮 GamePadVirtual - Controle Universal com Streaming
 
 Transforme seu smartphone Android em um controle profissional para PC com streaming de áudio e vídeo de baixa latência.
+Com ele a falta de controles para jogar com seus amigos ou ate mesmo sozinho não será mais um problema, podendo conectar até 8 controles (8 celulares).
 
 ---
 
@@ -208,6 +209,7 @@ O código original e implementações específicas são propriedade do desenvolv
 **Transforme sua experiência de jogo com controle preciso e streaming profissional!** 🎬🎮
 
 *Precisa de ajuda? Abra uma issue no nosso GitHub!*
+
 
 
 
