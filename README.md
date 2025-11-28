@@ -165,16 +165,30 @@ Transforme seu smartphone Android em um controle profissional para PC com stream
 
 ---
 
-## 📄 **Licença e Termos**
+## 📄 **LICENÇA E TERMOS DE USO**
 
-- **Licença:** MIT
-- **Uso livre** para fins pessoais
-- **Código aberto** disponível no GitHub
-- **Sem garantias** - use por sua conta e risco
+### 🔒 **SOFTWARE PROPRIETÁRIO**
+- **Código fonte fechado** - não disponível publicamente
+- **Distribuição apenas do executável** para uso final
+- **Modificações proibidas** - não é permitida engenharia reversa
+
+### 📝 **TERMOS DE USO**
+- **Uso gratuito para fins pessoais**
+- **Proibida redistribuição** sem autorização
+- **Não-comercial** - uso pessoal apenas
+
+### ⚠️ **COMPONENTES DE TERCEIROS**
+Este software utiliza componentes de código aberto:
+- **ViGEmBus** - Licença MIT (https://github.com/ViGEm/ViGEmBus)
+- **GStreamer** - Licença LGPL (https://gstreamer.freedesktop.org)
+
+### 🔐 **DIREITOS AUTORAIS**
+O código original e implementações específicas são propriedade do desenvolvedor.
 
 ---
 
 **Transforme sua experiência de jogo com controle preciso e streaming profissional!** 🎬🎮
 
 *Precisa de ajuda? Abra uma issue no nosso GitHub!*
+
 
