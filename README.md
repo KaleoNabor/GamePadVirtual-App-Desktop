@@ -4,6 +4,24 @@ Transforme seu smartphone Android em um controle profissional para PC com stream
 
 ---
 
+## 📱+🖥️ **COMO UTILIZAR:**
+- **Usar como um controle:**
+   1. Baixe e Instale o App e o Programa de Windows Disponíveis abaixo
+   2. Abra o App no celular e no computador, e conecte-os no mesmo Roteador (Wi-fi + Cabo ou Wi-fi + Wi-fi)
+   3. Com o programa no PC aberto, vá no App e clique em "Conectar na Rede" e selecione o Dispositivo que aparecer
+   4. Depois no App clique em "Ir para o Controle" e aproveite
+- **Função de Gamepad Externo:**
+   1. Conecte o gamepad externo USB ao celular
+   2. Abra o App, e as funções dos botões virtuais já serão substituidas pelo gamepad externo
+   3. É possivel definir os gatilhos para **Digitais** na barra lateral de configurações na tela de controle quando o Externo estiver conetado.
+- **Função de Stream da tela do PC:**
+   1. No PC a opção de Começar Stream precisa estar marcada
+   2. No app, assim que ele conectar na rede na tela de cotrole a opção de Assistir Stream já aparecerá no canto superior direito
+   3. Você pode alterar o modo de visualização para Imersivo(Tela cheia), Split(Tela reduzida para caber os botões fora da Exibição)--  
+
+
+---
+
 ## 📦 **Downloads**
 
 ### 📱 Aplicativo Android
@@ -63,11 +81,11 @@ Transforme seu smartphone Android em um controle profissional para PC com stream
 ### 📋 **Passo a Passo**
 1. **🔵 Instale o VC++ Redist** no PC (como Administrador)
 2. **📥 Baixe o servidor** e extraia o ZIP
-3. **🖥️ Execute** `GamePadVirtual-Desktop.exe`
-4. **✅ Permita** a instalação do driver ViGEmBus
-5. **📱 Instale o app** no celular
-6. **🔍 Conecte** via "Descoberta Automática"
-7. **🎮 Pronto para jogar!**
+3. **✅ Instale** a do driver ViGEmBus
+4. **🖥️ Execute** `GamePadVirtual-Desktop.exe`
+6. **📱 Instale o app** no celular
+7. **🔍 Conecte** via "Descoberta Automática"
+8. **🎮 Pronto para jogar!**
 
 ---
 
@@ -190,5 +208,6 @@ O código original e implementações específicas são propriedade do desenvolv
 **Transforme sua experiência de jogo com controle preciso e streaming profissional!** 🎬🎮
 
 *Precisa de ajuda? Abra uma issue no nosso GitHub!*
+
 
 
