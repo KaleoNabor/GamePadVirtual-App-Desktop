@@ -26,13 +26,13 @@ Com ele a falta de controles para jogar com seus amigos ou ate mesmo sozinho nã
 ## 📦 **Downloads**
 
 ### 📱 Aplicativo Android
-**Versão:** 1.3.0  
+**Versão:** Mais atual  
 **Plataforma:** Android 8.0+  
 **Arquivo:** `GamePadVirtual-Android-v-.-.-.apk`  
 [📥 Baixar APK](https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/tag/App)
 
 ### 🖥️ Servidor PC
-**Versão:** 1.3.0  
+**Versão:** Mais atual  
 **Plataforma:** Windows 10/11 (64-bit)  
 **Arquivo:** `GamePadVirtual-Server-v-.-.-.zip`  
 [📥 Baixar Servidor](https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/tag/Server)
@@ -70,6 +70,12 @@ Com ele a falta de controles para jogar com seus amigos ou ate mesmo sozinho nã
 - **Touchpad** para controle do mouse
 - **Teclado virtual** completo
 - **Vibração háptica** local e remota
+
+### 🖥️**MENU DE CONFIGURAÇÕES DE STREAMING:**
+- Detecta o Hardware e mostra as opções disponiveis de transmissão
+- Qualidade de transmissão: H265, H264, VP8
+- Taxa de quadros: 30 a 60 FPS
+- Configurações avançadas: Controle de Bitrate (Opções recomendadas automaticamente aplicadas automaticamente)
 
 ---
 
@@ -209,6 +215,7 @@ O código original e implementações específicas são propriedade do desenvolv
 **Transforme sua experiência de jogo com controle preciso e streaming profissional!** 🎬🎮
 
 *Precisa de ajuda? Abra uma issue no nosso GitHub!*
+
 
 
 
