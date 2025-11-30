@@ -29,13 +29,13 @@ Com ele a falta de controles para jogar com seus amigos ou ate mesmo sozinho nã
 **Versão:** Mais atual  
 **Plataforma:** Android 8.0+  
 **Arquivo:** `GamePadVirtual-Android-v-.-.-.apk`  
-[📥 Baixar APK](https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/tag/App)
+[📥 Baixar APK](https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/tag/v1.3.1-APP)
 
 ### 🖥️ Servidor PC
 **Versão:** Mais atual  
 **Plataforma:** Windows 10/11 (64-bit)  
 **Arquivo:** `GamePadVirtual-Server-v-.-.-.zip`  
-[📥 Baixar Servidor](https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/tag/Server)
+[📥 Baixar Servidor](https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/tag/v1.3.1-Server)
 
 ---
 
@@ -215,6 +215,7 @@ O código original e implementações específicas são propriedade do desenvolv
 **Transforme sua experiência de jogo com controle preciso e streaming profissional!** 🎬🎮
 
 *Precisa de ajuda? Abra uma issue no nosso GitHub!*
+
 
 
 
