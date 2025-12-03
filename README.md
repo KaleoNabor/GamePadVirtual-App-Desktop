@@ -30,13 +30,13 @@ Transforme seu smartphone Android em um controle profissional para PC com stream
 **Versão:** Mais atual  
 **Plataforma:** Android 8.0+  
 **Arquivo:** `GamePadVirtual-Android-v-.-.-.apk`  
-[📥 Baixar APK](https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/tag/v1.3.1-APP)
+[📥 Baixar APK](https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/tag/v1.3.2-APP)
 
 ### 🖥️ Servidor PC
 **Versão:** Mais atual  
 **Plataforma:** Windows 10/11 (64-bit)  
 **Arquivo:** `GamePadVirtual-Server-v-.-.-.zip`  
-[📥 Baixar Servidor](https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/tag/v1.3.1-Server)
+[📥 Baixar Servidor](https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/tag/v1.3.2-Server)
 
 ---
 
@@ -238,3 +238,4 @@ O código original e implementações específicas são propriedade do desenvolv
 **Transforme sua experiência de jogo com controle preciso, streaming de vídeo de alta performance e áudio de qualidade profissional!** 🎬🎮🔊
 
 *Precisa de ajuda? Consulte a seção de solução de problemas acima ou abra uma issue no nosso GitHub!*
+
