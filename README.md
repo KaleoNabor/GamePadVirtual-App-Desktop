@@ -1,25 +1,26 @@
 # 🎮 GamePadVirtual - Controle Universal com Streaming
 
-Transforme seu smartphone Android em um controle profissional para PC com streaming de áudio e vídeo de baixa latência.
-Com ele a falta de controles para jogar com seus amigos ou ate mesmo sozinho não será mais um problema, podendo conectar até 8 controles (8 celulares).
+Transforme seu smartphone Android em um controle profissional para PC com streaming de áudio e vídeo de baixa latência. Com ele a falta de controles para jogar com seus amigos ou até mesmo sozinho não será mais um problema, podendo conectar até 8 controles (8 celulares).
 
 ---
 
 ## 📱+🖥️ **COMO UTILIZAR:**
+
 - **Usar como um controle:**
    1. Baixe e Instale o App e o Programa de Windows Disponíveis abaixo
    2. Abra o App no celular e no computador, e conecte-os no mesmo Roteador (Wi-fi + Cabo ou Wi-fi + Wi-fi)
    3. Com o programa no PC aberto, vá no App e clique em "Conectar na Rede" e selecione o Dispositivo que aparecer
    4. Depois no App clique em "Ir para o Controle" e aproveite
+
 - **Função de Gamepad Externo:**
    1. Conecte o gamepad externo USB ao celular
-   2. Abra o App, e as funções dos botões virtuais já serão substituidas pelo gamepad externo
-   3. É possivel definir os gatilhos para **Digitais** na barra lateral de configurações na tela de controle quando o Externo estiver conetado.
+   2. Abra o App, e as funções dos botões virtuais já serão substituídas pelo gamepad externo
+   3. É possível definir os gatilhos para **Digitais** na barra lateral de configurações na tela de controle quando o Externo estiver conectado.
+
 - **Função de Stream da tela do PC:**
    1. No PC a opção de Começar Stream precisa estar marcada
-   2. No app, assim que ele conectar na rede na tela de cotrole a opção de Assistir Stream já aparecerá no canto superior direito
-   3. Você pode alterar o modo de visualização para Imersivo(Tela cheia), Split(Tela reduzida para caber os botões fora da Exibição)--  
-
+   2. No app, assim que ele conectar na rede, na tela de controle a opção de Assistir Stream já aparecerá no canto superior direito
+   3. Você pode alterar o modo de visualização para Imersivo (Tela cheia), Split (Tela reduzida para caber os botões fora da Exibição)
 
 ---
 
@@ -39,29 +40,38 @@ Com ele a falta de controles para jogar com seus amigos ou ate mesmo sozinho nã
 
 ---
 
-## 🚀 **Funcionalidades Principais**
+## 🚀 **Funcionalidades Principais - COMPLETO**
 
 ### 🎯 **Controle Universal Multi-Plataforma**
 - **Emulação Xbox 360 & DualShock 4** via ViGEmBus
 - **Reconhecimento nativo** pelo Windows e jogos
 - **Suporte a controles físicos** via Bluetooth/OTG
 - **Multitouch** com até 8 toques simultâneos
+- **Controles do PC:** Touchpad (mouse) e teclado virtual
 
-### 🖥️ **Streaming de Vídeo & Áudio**
+### 🖥️ **Streaming de Vídeo & Áudio (Alta Performance)**
 - **Captura direta da tela** via DirectX 11 (Zero-Copy)
-- **Codificação hardware** NVENC (NVIDIA) / AMF (AMD)
-- **Áudio do sistema** em tempo real via WASAPI
-- **Latência ultrabaixa** com WebRTC
+- **Codificação hardware acelerada:** NVIDIA NVENC, AMD AMF
+- **Codecs suportados:** H.265, H.264, VP8
+- **Sistema de fallback inteligente:** Automaticamente seleciona codec compatível se H.265 falhar
+- **Controle de Keyframes:** Otimizado para auto-recuperação rápida após instabilidade
+- **Áudio do sistema de alta fidelidade** via WASAPI com roteamento dedicado
+- **Baixíssima latência** com buffers otimizados para sincronia áudio/vídeo perfeita (30-60 FPS)
+- **Roteamento de áudio inteligente no Android:** Detecta fones (com fio/Bluetooth) e alterna automaticamente.
 
-### 📡 **Conexão Híbrida**
+### 📡 **Conexão Híbrida & Estabilidade**
 - **Wi-Fi automático** com descoberta de rede
 - **Ancoragem USB** para máxima estabilidade
 - **TCP/UDP otimizado** para dados e vídeo
 - **Reconexão automática** se a conexão cair
+- **Sistema de "Conexão Imortal"**: 
+    - Serviço de primeiro plano Android com notificação persistente
+    - Sistema de Heartbeat (Ping-Pong) mantém conexão ativa mesmo em segundo plano
+    - O áudio continua tocando mesmo com tela bloqueada (como receptor sem fio)
 
 ### 🎮 **Motion Controls para Emuladores**
 - **Servidor DSU** nativo (porta 26760)
-- **Compatibilidade total** com Cemu, Yuzu, Ryujinx, Dolphin(Somente por controle de PS4)
+- **Compatibilidade total** com Cemu, Yuzu, Ryujinx, Dolphin (Somente por controle de PS4)
 - **Giroscópio e acelerômetro** de alta precisão
 - **Mira por movimento** em jogos compatíveis
 
@@ -71,11 +81,13 @@ Com ele a falta de controles para jogar com seus amigos ou ate mesmo sozinho nã
 - **Teclado virtual** completo
 - **Vibração háptica** local e remota
 
-### 🖥️**MENU DE CONFIGURAÇÕES DE STREAMING:**
-- Detecta o Hardware e mostra as opções disponiveis de transmissão
-- Qualidade de transmissão: H265, H264, VP8
-- Taxa de quadros: 30 a 60 FPS
-- Configurações avançadas: Controle de Bitrate (Opções recomendadas automaticamente aplicadas automaticamente)
+### ⚙️ **MENU DE CONFIGURAÇÕES DE STREAMING NO PC (NOVO):**
+- **Detecção automática de Hardware** e display de opções disponíveis
+- **Seleção manual de Codec:** H.265, H.264, VP8
+- **Controle de Taxa de quadros:** 30, 45, 60 FPS
+- **Ajuste de Bitrate** (Qualidade da imagem)
+- **Configurações avançadas** com opções recomendadas aplicadas automaticamente
+- **Arquitetura multitarefa robusta:** Serviços de rede e processamento rodam em threads independentes para evitar travamentos.
 
 ---
 
@@ -88,11 +100,11 @@ Com ele a falta de controles para jogar com seus amigos ou ate mesmo sozinho nã
 ### 📋 **Passo a Passo**
 1. **🔵 Instale o VC++ Redist** no PC (como Administrador)
 2. **📥 Baixe o servidor** e extraia o ZIP
-3. **✅ Instale** a do driver ViGEmBus
+3. **✅ Instale** o driver ViGEmBus
 4. **🖥️ Execute** `GamePadVirtual-Desktop.exe`
-6. **📱 Instale o app** no celular
-7. **🔍 Conecte** via "Descoberta Automática"
-8. **🎮 Pronto para jogar!**
+5. **📱 Instale o app** no celular
+6. **🔍 Conecte** via "Descoberta Automática"
+7. **🎮 Pronto para jogar!**
 
 ---
 
@@ -121,10 +133,11 @@ Com ele a falta de controles para jogar com seus amigos ou ate mesmo sozinho nã
 | Recurso | Tecnologia | Status |
 |---------|------------|---------|
 | **Controle** | ViGEmBus (Kernel) | ✅ **Pronto** |
-| **Vídeo** | GStreamer + NVENC/AMF + WebRTC | ✅ **Pronto** |
-| **Áudio** | WASAPI Loopback + Opus | ✅ **Pronto** |
-| **Rede** | TCP/UDP + Broadcast Discovery | ✅ **Pronto** |
+| **Vídeo** | GStreamer + NVENC/AMF + WebRTC (Aceleração por Hardware) | ✅ **Pronto** |
+| **Áudio** | WASAPI Loopback + Roteamento UDP Dedicado + Reprodutor Nativo Kotlin | ✅ **Pronto** |
+| **Rede** | TCP/UDP + Broadcast Discovery + Heartbeat | ✅ **Pronto** |
 | **Sensores** | Protocolo Cemuhook UDP | ✅ **Pronto** |
+| **Segundo Plano Android** | Serviço de Primeiro Plano com Notificação Persistente | ✅ **Pronto** |
 | **Bluetooth** | RFCOMM / BLE GATT | 🚧 **Em Desenvolvimento** |
 
 ---
@@ -132,10 +145,10 @@ Com ele a falta de controles para jogar com seus amigos ou ate mesmo sozinho nã
 ## ⚡ **Performance**
 
 - **⚡ Latência de controle:** <8ms (125Hz)
-- **🎬 Streaming:** 60 FPS com baixo delay
+- **🎬 Streaming:** Até 60 FPS com baixo delay e sincronia áudio/vídeo aprimorada
+- **🔊 Áudio:** Qualidade Hi-Fi, estéreo real, sem compressão degradante (modo "aplicativo de música")
 - **📊 Sensores:** 100Hz sampling rate
 - **🎯 Precisão analógica:** 16-bit resolution
-- **🔊 Áudio:** 128kbps Opus (low-delay)
 
 ---
 
@@ -143,13 +156,13 @@ Com ele a falta de controles para jogar com seus amigos ou ate mesmo sozinho nã
 
 ### 💻 **PC**
 - Windows 10/11 64-bit
-- GPU com encoder hardware (NVENC/AMF)
+- GPU com encoder hardware (NVENC/AMF) recomendada para melhor performance
 - 4GB RAM mínimo
-- Conexão Wi-Fi 5GHz ou USB Tethering
+- Conexão Wi-Fi 5GHz ou USB Tethering para melhor estabilidade
 
 ### 📱 **Android**
 - Android 8.0+
-- Giroscópio (recomendado)
+- Giroscópio (recomendado para motion controls)
 - Wi-Fi 5GHz ou USB Tethering
 - 2GB RAM mínimo
 
@@ -167,15 +180,22 @@ Com ele a falta de controles para jogar com seus amigos ou ate mesmo sozinho nã
 2. Confirme se o VC++ Redist está instalado
 3. Teste com modo Xbox 360 primeiro
 
-### 📹 **Streaming com Lag**
+### 📹 **Streaming com Lag ou Problemas**
 1. Use Wi-Fi 5GHz ou cabo USB
-2. Reduza a qualidade no app se necessário
-3. Verifique encoder hardware na GPU
+2. No menu de configurações do PC, reduza a taxa de quadros ou bitrate se necessário
+3. Verifique se a aceleração por hardware (NVENC/AMF) está funcionando nas configurações
+4. Ajuste o modo de visualização no app para "Split" se a conexão for mais lenta
 
 ### 🎯 **Motion Controls em Emuladores**
-1. Configure o emulador para conectar em `127.0.0.1:26760`
-2. No Cemu: Input → Motion → DSU Client
-3. No Yuzu: Configurações → Controles → Motion
+1. No programa do PC, verifique se o Servidor DSU está ativo
+2. Configure o emulador para conectar em `127.0.0.1:26760`
+   - **No Cemu:** Input → Motion → DSU Client
+   - **No Yuzu:** Configurações → Controles → Motion
+
+### 🔊 **Problemas de Áudio**
+1. **Som "metálico" ou cortado:** Isso foi resolvido. Certifique-se de usar a versão mais recente do App e Servidor.
+2. **Sem áudio no fone Bluetooth:** Verifique se o fone está conectado ao celular *antes* de iniciar o streaming. O sistema detecta automaticamente na conexão.
+3. **Áudio cortando em 30 FPS:** Corrigido com buffer otimizado. Se persistir, tente 60 FPS nas configurações do PC.
 
 ---
 
@@ -187,6 +207,9 @@ Com ele a falta de controles para jogar com seus amigos ou ate mesmo sozinho nã
 - **Largura de banda** reduzida vs Wi-Fi
 
 *Nota: O Bluetooth está em fase de testes e pode não oferecer a mesma estabilidade que Wi-Fi/USB.*
+
+### 🖥️ **Monitor Virtual (Futuro)**
+- Suporte para resoluções de streaming personalizadas.
 
 ---
 
@@ -212,12 +235,6 @@ O código original e implementações específicas são propriedade do desenvolv
 
 ---
 
-**Transforme sua experiência de jogo com controle preciso e streaming profissional!** 🎬🎮
+**Transforme sua experiência de jogo com controle preciso, streaming de vídeo de alta performance e áudio de qualidade profissional!** 🎬🎮🔊
 
-*Precisa de ajuda? Abra uma issue no nosso GitHub!*
-
-
-
-
-
-
+*Precisa de ajuda? Consulte a seção de solução de problemas acima ou abra uma issue no nosso GitHub!*
