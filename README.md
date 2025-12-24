@@ -24,19 +24,19 @@ Transforme seu smartphone Android em um controle profissional para PC com stream
 
 ---
 
-## 📦 Downloads
+## 📦 **Downloads**
 
 ### 📱 Aplicativo Android
-Versão: Mais atual  
-Plataforma: Android 8.0+  
-Arquivo: GamePadVirtual-Android-v-.-.-.apk  
-📥 Baixar APK: https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/tag/v1.3.2-APP
+**Versão:** Mais atual  
+**Plataforma:** Android 8.0+  
+**Arquivo:** `GamePadVirtual-Android-v-.-.-.apk`  
+[📥 Baixar APK](https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/tag/v1.3.3-APP)
 
 ### 🖥️ Servidor PC
-Versão: Mais atual  
-Plataforma: Windows 10/11 (64-bit)  
-Arquivo: GamePadVirtual-Server-v-.-.-.zip  
-📥 Baixar Servidor: https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/tag/v1.3.2-Server
+**Versão:** Mais atual  
+**Plataforma:** Windows 10/11 (64-bit)  
+**Arquivo:** `GamePadVirtual-Server-v-.-.-.zip`  
+[📥 Baixar Servidor](https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/tag/v1.3.3-Server)
 
 ---
 
@@ -115,7 +115,7 @@ Arquivo: GamePadVirtual-Server-v-.-.-.zip
 ### ⚙️ MENU DE CONFIGURAÇÕES DE STREAMING NO PC (NOVO):
 - Detecção automática de Hardware e display de opções disponíveis
 - Seleção manual de Codec: H.265, H.264, VP8
-- Controle de Taxa de quadros: 30, 45, 60, 90, 120 FPS
+- Controle de Taxa de quadros: 30, 60, 90, 120 FPS
 - Ajuste de Bitrate (Qualidade da imagem)
 - Configurações avançadas com opções recomendadas aplicadas automaticamente
 - Arquitetura multitarefa robusta: Serviços de rede e processamento rodam em threads independentes para evitar travamentos.
@@ -268,6 +268,7 @@ Nota: O Bluetooth está em fase de testes e pode não oferecer a mesma estabilid
 Este software utiliza componentes de código aberto:
 - ViGEmBus - Licença MIT (https://github.com/ViGEm/ViGEmBus)
 - GStreamer - Licença LGPL (https://gstreamer.freedesktop.org)
+- Virtual Display Driver - Licença MIT (https://github.com/VirtualDrivers/Virtual-Display-Driver)
 
 ### 🔐 DIREITOS AUTORAIS
 O código original e implementações específicas são propriedade do desenvolvedor.
@@ -277,3 +278,4 @@ O código original e implementações específicas são propriedade do desenvolv
 Transforme sua experiência de jogo com controle preciso, streaming de vídeo de alta performance e áudio de qualidade profissional! 🎬🎮🔊
 
 Precisa de ajuda? Consulte a seção de solução de problemas acima ou abra uma issue no nosso GitHub!
+
