@@ -18,9 +18,10 @@ Transforme seu smartphone Android em um controle profissional para PC com stream
    3. É possível definir os gatilhos para Digitais na barra lateral de configurações na tela de controle quando o Externo estiver conectado.
 
 - Função de Stream da tela do PC:
-   1. No PC a opção de Começar Stream precisa estar marcada
-   2. No app, assim que ele conectar na rede, na tela de controle a opção de Assistir Stream já aparecerá no canto superior direito
-   3. Você pode alterar o modo de visualização para Imersivo (Tela cheia), Split (Tela reduzida para caber os botões fora da Exibição)
+   1. Escolha o modo de Straming de tela que deseja e aperte em "Aplicar alterações" se modificou algo 
+   2. No PC a opção de Iniciar Transmissão, no menu Config de Streaming, precisa estar ativa
+   2. No app, assim que ele conectar na rede, na tela de controle, a opção de Assistir Stream já aparecerá no canto superior direito
+   3. Você pode alterar o modo de visualização para Imersivo (Tela cheia)(para quem possui um gamepad externo), Split (Tela reduzida para caber os botões fora da Exibição)
 
 ---
 
@@ -40,6 +41,25 @@ Transforme seu smartphone Android em um controle profissional para PC com stream
 
 ---
 
+## ⚙️ Instalação Rápida
+
+### 🔵 Pré-requisito Obrigatório (PC)
+Visual C++ Redistributable 2015-2022  
+📥 Download Direto Microsoft: https://aka.ms/vs/17/release/vc_redist.x64.exe
+
+### 📋 Passo a Passo
+1. 🔵 Instale o VC++ Redist no PC (como Administrador)
+2. 📥 Baixe o servidor e extraia o ZIP
+3. ✅ Instale os drivers necessários:
+   - Driver ViGEmBus: O instalador está na pasta \drivers\ViGEmBus_Setup_X.X.X.exe
+   - Virtual Display Driver: Abra o arquivo VDD Control.exe em \drivers\VDD.Control.25.7.23\ e clique na opção Install Driver. Quando terminar pode fechar.
+4. 🖥️ Execute GamePadVirtual-Desktop.exe
+5. 📱 Instale o app no celular
+6. 🔍 Conecte via "Descoberta Automática"
+7. 🎮 Pronto para jogar!
+
+---
+
 ## 🚀 Funcionalidades Principais - COMPLETO
 
 ### 🎯 Controle Universal Multi-Plataforma
@@ -53,10 +73,11 @@ Transforme seu smartphone Android em um controle profissional para PC com stream
 - Captura direta da tela via DirectX 11 (Zero-Copy)
 - Codificação hardware acelerada: NVIDIA NVENC, AMD AMF
 - Codecs suportados: H.265, H.264, VP8
+- Handshake que passa para o computador o que é suportado pelo celular e carrega a transmissão de acordo
 - Sistema de fallback inteligente: Automaticamente seleciona codec compatível se H.265 falhar
 - Controle de Keyframes: Otimizado para auto-recuperação rápida após instabilidade
 - Áudio do sistema de alta fidelidade via WASAPI com roteamento dedicado
-- Baixíssima latência com buffers otimizados para sincronia áudio/vídeo perfeita (30-60 FPS)
+- Baixíssima latência com buffers otimizados para sincronia áudio/vídeo perfeita
 - Roteamento de áudio inteligente no Android: Detecta fones (com fio/Bluetooth) e alterna automaticamente.
 
 ### 📡 Conexão Híbrida & Estabilidade
@@ -67,7 +88,6 @@ Transforme seu smartphone Android em um controle profissional para PC com stream
 - Sistema de "Conexão Imortal":
     - Serviço de primeiro plano Android com notificação persistente
     - Sistema de Heartbeat (Ping-Pong) mantém conexão ativa mesmo em segundo plano
-    - O áudio continua tocando mesmo com tela bloqueada (como receptor sem fio)
 
 ### 🎮 Motion Controls para Emuladores
 - Servidor DSU nativo (porta 26760)
@@ -122,25 +142,6 @@ Transforme seu smartphone Android em um controle profissional para PC com stream
 
 ---
 
-## ⚙️ Instalação Rápida
-
-### 🔵 Pré-requisito Obrigatório (PC)
-Visual C++ Redistributable 2015-2022  
-📥 Download Direto Microsoft: https://aka.ms/vs/17/release/vc_redist.x64.exe
-
-### 📋 Passo a Passo
-1. 🔵 Instale o VC++ Redist no PC (como Administrador)
-2. 📥 Baixe o servidor e extraia o ZIP
-3. ✅ Instale os drivers necessários:
-   - Driver ViGEmBus: O instalador está na pasta \drivers\ViGEmBus_Setup_X.X.X.exe
-   - Virtual Display Driver: Abra o arquivo VDD Control.exe em \drivers\VDD.Control.25.7.23\ e clique na opção Install Driver. Quando terminar pode fechar.
-4. 🖥️ Execute GamePadVirtual-Desktop.exe
-5. 📱 Instale o app no celular
-6. 🔍 Conecte via "Descoberta Automática"
-7. 🎮 Pronto para jogar!
-
----
-
 ## 🎯 Casos de Uso
 
 ### 🕹️ Jogos PC Nativo
@@ -154,11 +155,23 @@ Visual C++ Redistributable 2015-2022
 - Dolphin (Wii): Controles de movimento
 - PS2/PS3: Suporte via emulação
 
-### 💻 Controle do PC
-- Touchpad para mouse
-- Teclado virtual para digitação
-- Atalhos rápidos (Win, Alt+Tab, Esc)
+### 🎮 BARRA ACIMA DO TECLADO VIRTUAL COM AS TECLAS DE PC
+- 🔤 **Teclas Extendidas Suportadas**
+  - Inclui todas as teclas de função (F1 a F12)
+  - Adiciona teclas de navegação: Page Up, Page Down, Home, End
+  - Barra de exibição desse botões agora suporta rolagem para acessar todos os botões
+  - Teclas Shift, Ctrl, Alt podem ser "travadas" em estado ativo
+  - O indicador visual permanece destacado na interface até a desseleção manual (Botão fica Azul)
 
+### 🖱️ USO DA TELA COMO TOUCHPAD PARA MOUSE
+- 🎯 **Sistema de Clique Seguido por Hemisfério**
+  - A tela de vídeo é dividida virtualmente em hemisfério esquerdo e direito
+  - Toque longo no hemisfério esquerdo = clique esquerdo segurado
+  - Toque longo no hemisfério direito = clique direito segurado
+  - Liberação ocorre ao soltar o toque na respectiva área
+  - Interface mostra indicadores visuais de click segurado
+  - Divisão baseada na resolução nativa detectada automaticamente
+  - Ponto central da tela (X/2) define a fronteira entre hemisférios
 ---
 
 ## 🔧 Arquitetura Técnica
@@ -205,6 +218,9 @@ Visual C++ Redistributable 2015-2022
 ---
 
 ## ❓ Suporte e Solução de Problemas
+
+### 💻 Stream do monitor errado ou não carregada
+1. Feche e abra o programa do PC e tente novamente (geralmente ele funciona de primeira)
 
 ### 🔍 Conexão Não Estabelecida
 1. Verifique se estão na mesma rede Wi-Fi
@@ -278,4 +294,5 @@ O código original e implementações específicas são propriedade do desenvolv
 Transforme sua experiência de jogo com controle preciso, streaming de vídeo de alta performance e áudio de qualidade profissional! 🎬🎮🔊
 
 Precisa de ajuda? Consulte a seção de solução de problemas acima ou abra uma issue no nosso GitHub!
+
 
