@@ -55,8 +55,8 @@ Visual C++ Redistributable 2015-2022
    - Virtual Display Driver: Abra o arquivo VDD Control.exe em \drivers\VDD.Control.25.7.23\ e clique na opção Install Driver. Quando terminar pode fechar.
 4. 🖥️ Execute GamePadVirtual-Desktop.exe
 5. 📱 Instale o app no celular
-6. 🔍 Conecte via "Descoberta Automática"
-7. 🎮 Pronto para jogar!
+6. 🔍 Conecte na mesma rede e no app aperte "Conectar na Rede"
+7. 🎮 Clique em "Ir para o Controle" e está pronto para jogar!
 
 ---
 
@@ -294,5 +294,6 @@ O código original e implementações específicas são propriedade do desenvolv
 Transforme sua experiência de jogo com controle preciso, streaming de vídeo de alta performance e áudio de qualidade profissional! 🎬🎮🔊
 
 Precisa de ajuda? Consulte a seção de solução de problemas acima ou abra uma issue no nosso GitHub!
+
 
 
