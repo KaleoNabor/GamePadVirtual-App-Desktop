@@ -39,6 +39,12 @@ Transforme seu smartphone Android em um controle profissional para PC com stream
 **Arquivo:** `GamePadVirtual-Server-v-.-.-.zip`  
 [📥 Baixar Servidor](https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/tag/v1.3.4-Server)
 
+### 🛠️ Drivers Necessários
+**Versão:** Mais atual  
+**Plataforma:** Windows 10/11 (64-bit)  
+**Arquivo:** `drivers.zip`  
+[📥 Baixar Drivers](https://github.com/KaleoNabor/GamePadVirtual-App-Desktop/releases/download/v1.3.4-Server/drivers.zip)
+
 ---
 
 ## ⚙️ Instalação Rápida
@@ -172,6 +178,7 @@ Visual C++ Redistributable 2015-2022
   - Interface mostra indicadores visuais de click segurado
   - Divisão baseada na resolução nativa detectada automaticamente
   - Ponto central da tela (X/2) define a fronteira entre hemisférios
+
 ---
 
 ## 🔧 Arquitetura Técnica
@@ -185,7 +192,7 @@ Visual C++ Redistributable 2015-2022
 | Sensores | Protocolo Cemuhook UDP | ✅ Pronto |
 | Segundo Plano Android | Serviço de Primeiro Plano com Notificação Persistente | ✅ Pronto |
 | Monitor Virtual | Windows Display Driver API + PowerShell Automation | ✅ Pronto |
-| Bluetooth | RFCOMM / BLE GATT | 🚧 Em Desenvolvimento |
+| Bluetooth | RFCOMM / BLE GATT | 🚧 Em Desenvolvimento(Ideia abandonada por enquanto, devido ao baixo suporte do windows a configs de bluetooth) |
 
 ---
 
@@ -294,8 +301,3 @@ O código original e implementações específicas são propriedade do desenvolv
 Transforme sua experiência de jogo com controle preciso, streaming de vídeo de alta performance e áudio de qualidade profissional! 🎬🎮🔊
 
 Precisa de ajuda? Consulte a seção de solução de problemas acima ou abra uma issue no nosso GitHub!
-
-
-
-
-
