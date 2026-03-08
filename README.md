@@ -50,7 +50,7 @@ Visual C++ Redistributable 2015-2022
 ### 📋 Passo a Passo
 1. 🔵 Instale o VC++ Redist no PC (como Administrador)
 2. 📥 Baixe o servidor e extraia o ZIP
-3. ✅ Instale os drivers necessários:
+3. ✅ Baixe e instale os drivers necessários (Download das versões utilizadas acima):
    - Driver ViGEmBus: O instalador está na pasta \drivers\ViGEmBus_Setup_X.X.X.exe
    - Virtual Display Driver: Abra o arquivo VDD Control.exe em \drivers\VDD.Control.25.7.23\ e clique na opção Install Driver. Quando terminar pode fechar.
 4. 🖥️ Execute GamePadVirtual-Desktop.exe
@@ -294,6 +294,7 @@ O código original e implementações específicas são propriedade do desenvolv
 Transforme sua experiência de jogo com controle preciso, streaming de vídeo de alta performance e áudio de qualidade profissional! 🎬🎮🔊
 
 Precisa de ajuda? Consulte a seção de solução de problemas acima ou abra uma issue no nosso GitHub!
+
 
 
 
