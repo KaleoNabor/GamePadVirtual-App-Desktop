@@ -58,8 +58,8 @@ Visual C++ Redistributable 2015-2022
 2. 📥 Baixe o servidor e extraia o ZIP
 3. ✅ Baixe e instale os drivers necessários (Download das versões utilizadas acima):
    - Driver ViGEmBus: O instalador está na pasta \drivers\ViGEmBus_Setup_X.X.X.exe
-   - Virtual Display Driver: Abra o arquivo VDD Control.exe em \drivers\VDD.Control.25.7.23\ e clique na opção Install Driver. Quando terminar pode fechar.
-4. 🖥️ Execute GamePadVirtual-Desktop.exe
+   - Virtual Display Driver: Abra o arquivo VDD Control.exe em \drivers\VDD.Control.25.7.23\ e clique na opção Install Driver. Quando terminar pode fechar. OBSERVAÇÃO: Instale ele de forma padrão, para pleno funcionamento do sistema de telas virtuais, o programa conta com a estrutura de pastas: C:\VirtualDisplayDriver\vdd_settings.xml
+4. 🖥️ Execute GamePadVirtualLauncher.exe
 5. 📱 Instale o app no celular
 6. 🔍 Conecte na mesma rede e no app aperte "Conectar na Rede"
 7. 🎮 Clique em "Ir para o Controle" e está pronto para jogar!
@@ -301,3 +301,4 @@ O código original e implementações específicas são propriedade do desenvolv
 Transforme sua experiência de jogo com controle preciso, streaming de vídeo de alta performance e áudio de qualidade profissional! 🎬🎮🔊
 
 Precisa de ajuda? Consulte a seção de solução de problemas acima ou abra uma issue no nosso GitHub!
+
